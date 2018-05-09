@@ -1,0 +1,26 @@
+{
+  "name": "power-emitter",
+  "version": "0.0.1",
+  "description": "An observer library. There are the same APIs with events module of Node.js and more.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "Calerme/power-emitter",
+  "keywords": [
+    "observer",
+    "subscribe",
+    "emit",
+    "event"
+  ],
+  "author": "Caler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Calerme/power-emitter/issues"
+  },
+  "homepage": "https://github.com/Calerme/power-emitter#readme",
+  "devDependencies": {
+    "webpack": "^4.7.0",
+    "webpack-cli": "^2.1.3"
+  }
+}
