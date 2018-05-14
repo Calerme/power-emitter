@@ -101,6 +101,10 @@ class PowerEmitter {
     return this.#defaultMaxListeners;
   }
 
+  listenerCount (eventName) {
+    return this.#eventPool[eventName].length;
+  }
+
   listeners (eventName) {
     return this.#eventPool[eventName].slice(0);
   }
